@@ -7,7 +7,7 @@ import java.util.Map.Entry;
 public class Test {
 
 	public static void main(String[] args) {
-		String name = "ramachandran";
+		String name = "test";
 		
 		String rev = "";
 		
