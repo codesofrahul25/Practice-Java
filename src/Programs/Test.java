@@ -7,16 +7,17 @@ import java.util.Map.Entry;
 public class Test {
 
 	public static void main(String[] args) {
-		int n=10;
+		String name = "ramachandran";
 		
-		for(int i=n; i>=0; i--)
+		String rev = "";
+		
+		for(int i=name.length()-1; i>=0; i--)
 		{
-			for(int j=0; j<=i; j++)
-			{
-				System.out.print("*");
-			}
-			System.out.println();
+			rev = rev+name.charAt(i);
 		}
+		
+		System.out.println(rev);
+				
 	}
 	
 }
